@@ -1,0 +1,46 @@
+@media (max-width: 990px) {
+    .offset-6 {
+        margin-left: 40%;
+    }
+    .description-about-arrow {
+        display: none;
+    }
+}
+@media (max-width: 660px) {
+    .offset-6 {
+        margin-left: 30%;
+    }
+    .header-logo p {
+        font-size: .7rem;
+    }
+    .header-navigation-menu li {
+        font-size: .9rem;
+        margin-right: .5rem;
+    }
+    .header-navigation-mobile {
+        text-align: right;
+        padding-right: 2rem;
+        color: $white;
+    }
+}
+@media (max-width: 575px) { 
+    .offset-6 {
+        margin-left: 0%;
+    }
+    .header-navigation-menu li {
+        margin-right: 0;
+        font-size: 0.6rem;
+    }
+    .header-navigation-menu a:nth-child(4) {
+        display: none;
+    }
+    .header-navigation-menu a:nth-child(5) {
+        display: none;
+    }
+    .description {
+        padding: 1rem 0rem;
+    }
+    .description-title img {
+        display: none;
+    }
+}

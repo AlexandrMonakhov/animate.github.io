@@ -1,0 +1,210 @@
+/* Color Scheme */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #363636;
+}
+
+button:focus {
+  outline: none;
+}
+
+.header {
+  padding: 2rem 0rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.header-logo {
+  text-transform: uppercase;
+}
+
+.header-logo p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.header-text p {
+  font-size: 1.4rem;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+}
+
+.header-button {
+  border: 1px solid #000000;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: .4rem 1.5rem;
+}
+
+.header-navigation {
+  text-align: center;
+  background: #292d30;
+}
+
+.header-navigation li {
+  list-style: none;
+  padding: 2rem 0rem;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-right: 2.5rem;
+  display: inline-block;
+}
+
+.header-navigation li:hover {
+  color: grey;
+}
+
+.description {
+  color: #ffffff;
+  text-align: center;
+  padding: 8.75rem 0rem;
+  background: url("../img/header/header-background.png") no-repeat;
+  background-size: cover;
+}
+
+.description-title {
+  text-transform: uppercase;
+}
+
+.description-title p {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.description-title span {
+  font-size: 1.5rem;
+}
+
+.description-about {
+  position: relative;
+  margin-top: 5.6rem;
+}
+
+.description-about small {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.description-about-arrow {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 40.5rem;
+}
+
+.description-button {
+  border: none;
+  border-radius: 2rem;
+  background: #059feb;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: .5rem 1.5rem;
+}
+
+.description-scrolldown {
+  margin-top: 5rem;
+}
+
+.description-scrolldown small {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.tasks {
+  text-align: center;
+}
+
+.tasks h2 {
+  position: relative;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 3.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.tasks h2::after {
+  content: '';
+  border-bottom: 3px solid #059feb;
+  position: absolute;
+  bottom: 0;
+  top: 2.7rem;
+  left: 45%;
+  width: 10%;
+}
+
+.tasks p {
+  font-weight: 500;
+}
+
+.productions {
+  text-align: center;
+}
+
+.productions img {
+  width: 127px;
+  height: 78px;
+}
+
+.productions-card-description p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 990px) {
+  .offset-6 {
+    margin-left: 40%;
+  }
+  .description-about-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 660px) {
+  .offset-6 {
+    margin-left: 30%;
+  }
+  .header-logo p {
+    font-size: .7rem;
+  }
+  .header-navigation-menu li {
+    font-size: .9rem;
+    margin-right: .5rem;
+  }
+  .header-navigation-mobile {
+    text-align: right;
+    padding-right: 2rem;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 575px) {
+  .offset-6 {
+    margin-left: 0%;
+  }
+  .header-navigation-menu li {
+    margin-right: 0;
+    font-size: 0.6rem;
+  }
+  .header-navigation-menu a:nth-child(4) {
+    display: none;
+  }
+  .header-navigation-menu a:nth-child(5) {
+    display: none;
+  }
+  .description {
+    padding: 1rem 0rem;
+  }
+  .description-title img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
